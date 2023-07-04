@@ -11,3 +11,8 @@ Now, install the dependencies:
 ```
 npm i express 
 ```
+
+Setup a react-app in the root directory with
+```
+Create-react-app frontend
+```
