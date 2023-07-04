@@ -12,11 +12,12 @@ function App() {
   const getNames = async() => {
     const response = await axios.get('/names'); // call to backend
     console.log(response);
+    setusername(response.data)
   }
   
   return (
     <div className="App">
-      App
+      my name is {username}
     </div>
   );
 }
