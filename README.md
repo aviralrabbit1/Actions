@@ -16,3 +16,11 @@ Setup a react-app in the root directory with
 ```
 Create-react-app frontend
 ```
+
+Now, install the dependencies: 
+-  **`Axios`**: It is a promise-based HTTP Client for node.js and the browser. It is isomorphic and can run in the browser and nodejs with the same codebase.
+```
+npm i axios 
+```
+
+
